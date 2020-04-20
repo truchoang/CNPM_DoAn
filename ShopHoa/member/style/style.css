@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+   
+    background-color: #ededed;
+}
+table tr td{
+	padding-left: 60px;
+}
+.to {
+    display: grid;
+    grid-template-columns: repeat(13,12fr);
+    grid-template-rows: minmax(auto,auto);
+}
+
+.form {
+    border: 1px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 5;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+
+input{
+    border-bottom: 2px solid #00BCD4;
+    outline-style: none;
+	padding-top: 10px;
+}
+
+
+input#submit {
+	padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    bottom: 10px;
+    cursor: pointer;
+    background: #5c9682;
+    font-weight: bold;
+}
+input#submit:hover{
+ 
+    background: linear-gradient(to right,#a8b08a, #dbe5b8); 
+}
+.comeback_home{
+    text-align: right;
+    margin-right: 10%;
+}
+
+
+.wrapper-form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.my-form-group label.my-control {
+    min-width: 25%;
+    display: inline-block;
+}
+.my-form-group input.my-control {
+    margin: 0px;
+	width: 40%;
+}
+.my-form-group {
+    margin: 20px 0px;
+}
+.my-form-group.radio label {
+    margin: inherit;
+    margin-right: 24px;
+}
+
+.my-form-group.radio label:first-child {
+    margin-right: 0px;
+}
+.my-form-group input#submit {
+    display: inline-block;
+    width: 100px;
+    padding: 9px 5px;
+    margin-top: 3%;
+}
+.text-center{
+	text-align: center;
+}
+.text-header.text-center h2 {
+    color: #509a2a;
+}
+
+.text-header.text-center a h2 {
+    color: inherit;
+    /* text-decoration: none; */
+}
+
+.text-header.text-center a {
+    text-decoration: none;
+}
+
+.wrapper-form {
+    padding: 23px 0px;
+    border: 1px solid;
+    margin: 10% auto;
+    text-align: center;
+}
+.txt_dky_thanhcong {
+    text-align: center;
+    color: darkgreen;
+}
+
+.bgr_body{  /*copy trên 4rum*/
+    background: linear-gradient(45deg, #5c9682 45px, #bf2b2b00 45px)64px 64px, linear-gradient(45deg, #5c9682 45px, transparent 45px,transparent 91px, #98a07c 91px, #e1ebbd 135px, transparent 135px), linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 1133px,transparent 158px,#a3c7bb 158px);
+}
+
+.bgr_body2{
+background: linear-gradient(45deg, #5c9682 45px, #bf2b2b00 45px)64px 64px, linear-gradient(45deg, #5c9682 45px, transparent 45px,transparent 91px, #98a07c 91px, #e1ebbd 135px, transparent 135px), linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 1133px,transparent 158px,#a3c7bb 158px);
+}

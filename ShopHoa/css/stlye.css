@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+.table{
+	margin: auto;
+	width: 100%;
+}
+.table tr td {
+	padding: 15px;
+	margin: 15px;
+	border-left: 3px solid hotpink;
+	border-bottom: 2px solid purple;
+	text-align: center;
+}
+.header{
+	width: auto;
+	height:60px;
+	background: url("../images/headbar.jpg");
+	line-height: 40px;
+}	
+#head a{
+    float: right;
+    display: flex;
+    margin-right: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+#menu ul {
+  background: url("../images/menubar.jpg");
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width:150px;
+  height: 60px;
+  line-height: 50px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+    color: #efff00;
+}
+
+/*==Dropdown Menu==*/
+.sub-menu {
+  display: none;
+  position: absolute;
+  width:250px;
+}
+#menu li {
+  position: relative;
+}
+#menu li:hover .sub-menu {
+  display: block;
+
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+
+/*==Menu cấp 3==*/
+.sub-menu > ul {
+  display: none !important;
+}
+.content{
+	width: auto;
+	height: auto;
+}.left{
+		width: 20%;
+		height:auto;
+		border-right: 1px solid black;
+		margin-top: 50px;
+		margin-left: 25px;
+		padding-right: 15px;
+		float: left;
+}
+.search input#text{
+	outline-style: none;
+	border: none;
+    border-bottom: 2px solid #00BCD4;
+	padding-top: 10px;
+
+}
+
+.search input#submit {
+    padding: 7px;
+	width: 100px;;
+    border-radius: 10px;
+    border: none;
+	text-align: center;
+	float: right;
+    bottom: 10px;
+    cursor: pointer;
+	background:#6D04B3;
+	color:white;
+}
+.right{
+	width : 75%;
+	height:auto;
+	float: right;
+}
+.alllist ul{
+	width : auto;
+	list-style: none;
+	
+}
+.alllist ul li{
+	width :auto;
+	height : auto;
+	text-align: center;
+	float: left;
+	margin: 15px;
+	
+}
+
+
+.alllist ul li a{
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	background: linear-gradient(to left,white,blueviolet,#662c90,blueviolet,white );
+	width:100%;
+	height:45px;
+	text-align: center;
+	border: 1px solid #000;
+}
+p.info {
+	float: right;
+	padding: 6px 17px;
+}
+
+a.btn_logout {
+	float: right;
+	padding: 5px 20px 5px 5px;
+	
+}
+.txt_search{
+	font-size: 12px;
+	color: gray;
+}
+li.icon_giohang a {
+    display: inline-block!important;
+}
+
+#menu li.icon_giohang {
+    width: initial;
+    height: initial;
+    top: 14px;
+}
+.img_sp {
+    width: 40%;
+    float: left;
+}
+
+.info_product_detail {
+    float: left;
+    width: 60%;
+    padding: 8px 19px;
+    box-sizing: border-box;
+}
+.info_product_detail h1 {
+	font-size: 25px;
+    color: #6d04b3;
+    border-bottom: 1px solid #d6d2d2;
+    padding-bottom: 7px;
+}
+
+.info_product_detail {
+    margin-top: 10px;
+}
+
+.info_product_detail p {
+    margin: 14px 0px;
+}
+.des {
+    color: #928700;
+}
+
+a.btn_buy {
+    background: red;
+    text-decoration: none;
+    padding: 10px 11px;
+    color: #ffff;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+a.btn_add_cart img {
+    width: 30px;
+    transform: translateY(8px);
+}
+
+a.btn_add_cart {
+	text-decoration: none;
+    padding: 10px 14px;
+    background: #7dbf68;
+    border-radius: 4px;
+    color: #000;
+}
+.btn_group_buy {
+
+    margin: 20px 0px;
+}
+.info_product_detail p span {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+table.tbl_cart {
+    border: 1px solid #c7c7c7;
+    border-collapse: collapse;
+}
+
+/*table .tbl_cart tr {
+     border: 1px solid #b3acac; 
+}*/
+
+table.tbl_cart td {
+    border: 1px solid #c7c7c7;
+    text-align: center;
+}
+
+table.tbl_cart thead tr td {
+    padding: 5px 5px;
+}
+table.tbl_cart input {
+    border: 0;
+}
+
+table.tbl_cart tr td,table.tbl_cart tr td input {
+    padding: 8px 5px;
+    text-align: center;
+}
+
+table.tbl_cart tr {
+    text-align: center;
+}
+
+td.quantity_wp input {
+    border: 1px solid #c5c5c5;
+    padding: 4px 1px!important;
+    font-size: 19px;
+    border-radius: 4px;
+}
+
+td.quantity_wp a {
+    text-decoration: none;
+    color: black;
+}
+
